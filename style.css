@@ -3,6 +3,7 @@
 * {border: 2px solid red;}
 
 */
+
 body{
     display: flex;
     flex-direction: column;
@@ -15,9 +16,9 @@ body{
     margin-left: auto;
 }
 
-.header, .header-middle, .footer {
+.header, .top-container, .footer {
     background-color: #1F2937;
-    padding: 40px;
+    padding: 30px;
 }
 
 ul {
@@ -54,8 +55,17 @@ h1, h4{
     object-fit: scale-down;
 }
 
-.header-middle{
+.top-container{
     display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
 }
 
 .middle-section{
@@ -131,4 +141,10 @@ button{
 .standard-text{
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
